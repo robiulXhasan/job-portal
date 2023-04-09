@@ -1,0 +1,22 @@
+[
+  {
+    "categoryLogo": "https://example.com/technology-logo.png",
+    "categoryName": "Technology",
+    "jobVacancies": 8
+  },
+  {
+    "categoryLogo": "https://example.com/finance-logo.png",
+    "categoryName": "Finance",
+    "jobVacancies": 4
+  },
+  {
+    "categoryLogo": "https://example.com/healthcare-logo.png",
+    "categoryName": "Healthcare",
+    "jobVacancies": 12
+  },
+  {
+    "categoryLogo": "https://example.com/marketing-logo.png",
+    "categoryName": "Marketing",
+    "jobVacancies": 6
+  }
+]

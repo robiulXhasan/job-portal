@@ -1,0 +1,110 @@
+[
+  {
+    "id": "job001",
+    "company_logo": "https://static.wikia.nocookie.net/warner-bros-entertainment/images/6/6e/Acme-corp.png/revision/latest?cb=20180619032346",
+    "job_title": "Software Engineer",
+    "company_name": "Acme Corporation",
+    "remote_or_onsite": "Remote",
+    "location": "Any Location",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$100,000 - $150,000",
+    "job_description": "Acme Corporation is seeking a talented software engineer to join our team. The ideal candidate will have experience with web development and a strong knowledge of modern programming languages.",
+    "job_responsibility": "Responsibilities include designing and implementing software solutions, collaborating with cross-functional teams, and ensuring code quality and performance.",
+    "educational_requirements": "Bachelor's degree in computer science or a related field",
+    "experiences": "5+ years of experience in software engineering",
+    "contact_information": {
+      "phone": "555-1234",
+      "email": "jobs@acme.com"
+    }
+  },
+  {
+    "id": "job002",
+    "company_logo": "https://www.underconsideration.com/brandnew/archives/xyz_type_logo_new.png",
+    "job_title": "Marketing Manager",
+    "company_name": "XYZ Inc.",
+    "remote_or_onsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Fulltime",
+    "salary": "$80,000 - $120,000",
+    "job_description": "XYZ Inc. is looking for a marketing manager to develop and implement marketing strategies that drive growth and engagement.",
+    "job_responsibility": "Responsibilities include managing the marketing team, creating and executing marketing campaigns, and analyzing data to measure effectiveness.",
+    "educational_requirements": "Bachelor's degree in marketing, communications, or a related field",
+    "experiences": "5+ years of experience in marketing",
+    "contact_information": {
+      "phone": "555-5678",
+      "email": "jobs@xyzinc.com"
+    }
+  },
+  {
+    "id": "job003",
+    "company_logo": "https://abccorporationhawaii.com/wp-content/uploads/2018/07/ABC-LogoLogotype-MASTER.jpg",
+    "job_title": "Graphic Designer",
+    "company_name": "ABC Corp.",
+    "remote_or_onsite": "Remote",
+    "location": "Any Location",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$30 - $50 per hour",
+    "job_description": "ABC Corp. is seeking a talented graphic designer to help create visually appealing content for our brand.",
+    "job_responsibility": "Responsibilities include designing graphics for websites, social media, and other marketing materials, as well as collaborating with other teams to ensure design consistency.",
+    "educational_requirements": "Associate's or Bachelor's degree in graphic design or a related field",
+    "experiences": "2+ years of experience in graphic design",
+    "contact_information": {
+      "phone": "555-9012",
+      "email": "jobs@abccorp.com"
+    }
+  },
+  {
+    "id": "job004",
+    "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9lWOe4eBsblvC8xhUo0dvs-TrjurNKNbReQ&usqp=CAU",
+    "job_title": "Data Analyst",
+    "company_name": "DevTech corp.",
+    "remote_or_onsite": "Remote",
+    "location": "Chicago, IL",
+    "fulltime_or_parttime": "Part-time",
+    "salary": "$50 - $60 per hour",
+    "job_description": "We are seeking a data analyst to help us extract insights from large data sets. You will be responsible for collecting, cleaning, and analyzing data to help us make better business decisions.",
+    "job_responsibility": "- Collect and clean data from various sources\n- Analyze data using statistical methods and software\n- Create visualizations and reports to communicate findings\n- Identify trends and patterns in data\n- Collaborate with cross-functional teams to drive data-driven decision-making",
+    "educational_requirements": "Bachelor's degree in Mathematics, Statistics, Computer Science, or a related field",
+    "experiences": "Minimum of 3 years of experience in data analysis",
+    "contact_information": {
+      "phone": "+1 345-678-9012",
+      "email": "jobs@abccorp.com"
+    }
+  },
+  {
+    "id": "job005",
+    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/d/d7/VFS_Global_Logo.png",
+    "job_title": "Customer Service Representative",
+    "company_name": "Global Services",
+    "remote_or_onsite": "Onsite",
+    "location": "Miami, FL",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$30,000 - $40,000",
+    "job_description": "We are seeking a customer service representative to join our team. You will be responsible for providing excellent customer service to our clients and resolving their issues in a timely and professional manner.",
+    "job_responsibility": "- Answer customer inquiries via phone, email, and chat\n- Resolve customer issues and complaints\n- Document customer interactions and feedback\n- Collaborate with cross-functional teams to improve customer experience\n- Meet or exceed customer service metrics",
+    "educational_requirements": "High school diploma or equivalent",
+    "experiences": "Minimum of 1 year of experience in customer service",
+    "contact_information": {
+      "phone": "+1 567-890-1234",
+      "email": "careers@globalservices.com"
+    }
+  },
+  {
+    "id": "job006",
+    "company_logo": "https://www.logoarena.com/contestimages/public_new/1440/3701_1352522040_bigdealstodayrgb2.jpg",
+    "job_title": "Sales Manager",
+    "company_name": "Big Deals Inc.",
+    "remote_or_onsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltime_or_parttime": "Full-time",
+    "salary": "$100,000 - $120,000",
+    "job_description": "We are seeking a highly motivated and results-driven sales manager to lead our sales team. You will be responsible for developing and executing sales strategies that drive revenue growth.",
+    "job_responsibility": "- Develop and implement sales strategies\n- Manage and coach sales team members\n- Identify and pursue new business opportunities\n- Monitor and report on sales performance metrics\n- Collaborate with cross-functional teams to meet revenue targets",
+    "educational_requirements": "Bachelor's degree in Business Administration or a related field",
+    "experiences": "Minimum of 5 years of experience in sales",
+    "contact_information": {
+      "phone": "+1 678-901-2345",
+      "email": "jobs@bigdealsinc.com"
+    }
+  }
+]
