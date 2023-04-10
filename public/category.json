@@ -1,22 +1,26 @@
 [
   {
-    "categoryLogo": "https://example.com/technology-logo.png",
+    "id": "01",
+    "categoryLogo": "https://cdn-icons-png.flaticon.com/512/897/897219.png",
     "categoryName": "Technology",
-    "jobVacancies": 8
+    "jobVacancies": 100
   },
   {
-    "categoryLogo": "https://example.com/finance-logo.png",
+    "id": "02",
+    "categoryLogo": "https://cdn-icons-png.flaticon.com/512/4604/4604417.png",
     "categoryName": "Finance",
-    "jobVacancies": 4
+    "jobVacancies": 150
   },
   {
-    "categoryLogo": "https://example.com/healthcare-logo.png",
+    "id": "03",
+    "categoryLogo": "https://cdn-icons-png.flaticon.com/512/2382/2382443.png",
     "categoryName": "Healthcare",
-    "jobVacancies": 12
+    "jobVacancies": 80
   },
   {
-    "categoryLogo": "https://example.com/marketing-logo.png",
+    "id": "04",
+    "categoryLogo": "https://cdn-icons-png.flaticon.com/512/1997/1997928.png",
     "categoryName": "Marketing",
-    "jobVacancies": 6
+    "jobVacancies": 200
   }
 ]
