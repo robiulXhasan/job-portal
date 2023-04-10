@@ -1,11 +1,11 @@
 [
   {
     "id": "job001",
-    "company_logo": "https://static.wikia.nocookie.net/warner-bros-entertainment/images/6/6e/Acme-corp.png/revision/latest?cb=20180619032346",
+    "company_logo": "https://www.deinmarktplatz.eu/images/logos/1/acme_vfcz-z1.png",
     "job_title": "Software Engineer",
     "company_name": "Acme Corporation",
     "remote_or_onsite": "Remote",
-    "location": "Any Location",
+    "location": "Dhaka,BD",
     "fulltime_or_parttime": "Fulltime",
     "salary": "$100,000 - $150,000",
     "job_description": "Acme Corporation is seeking a talented software engineer to join our team. The ideal candidate will have experience with web development and a strong knowledge of modern programming languages.",
@@ -41,7 +41,7 @@
     "job_title": "Graphic Designer",
     "company_name": "ABC Corp.",
     "remote_or_onsite": "Remote",
-    "location": "Any Location",
+    "location": "Mumbai,India",
     "fulltime_or_parttime": "Part-time",
     "salary": "$30 - $50 per hour",
     "job_description": "ABC Corp. is seeking a talented graphic designer to help create visually appealing content for our brand.",

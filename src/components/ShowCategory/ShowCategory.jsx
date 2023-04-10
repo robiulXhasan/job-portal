@@ -1,8 +1,7 @@
 import React from "react";
 
-const ShowCategory = (props) => {
-  const { categoryLogo, categoryName, jobVacancies } = props.category;
-  console.log(props.category);
+const ShowCategory = ({ category }) => {
+  const { categoryLogo, categoryName, jobVacancies } = category;
   return (
     <div className="bg-indigo-50 p-10 rounded-md space-y-2">
       <img className="h-16 bg-indigo-200 p-2 rounded-md" src={categoryLogo} alt="" />
