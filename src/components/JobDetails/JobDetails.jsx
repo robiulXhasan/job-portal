@@ -47,7 +47,7 @@ const JobDetails = () => {
   return (
     <div>
       <SharedBanner bannerHeading="Job Details"></SharedBanner>
-      <div className="w-11/12 md:w-10/12 mx-auto flex justify-between items-center gap-10 my-10">
+      <div className="w-11/12 md:w-10/12  mx-auto md:flex justify-between items-center gap-10 my-5 md:my-20">
         <div className="md:w-3/4 space-y-4 text-lg">
           <h3>
             <span className="font-bold">Job Description: </span>
