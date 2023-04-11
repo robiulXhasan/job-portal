@@ -12,10 +12,12 @@ import jobDataLoader from "./Loader/jobDataLoader";
 import JobDetails from "./components/JobDetails/JobDetails";
 import jobDetailsLoader from "./Loader/jobDetailsLoader";
 import cartProductsLoader from "./Loader/cartProductsLoader";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
@@ -43,6 +45,10 @@ const router = createBrowserRouter([
         },
       },
     ],
+  },
+  {
+    path: "*",
+    element: <ErrorPage></ErrorPage>,
   },
 ]);
 

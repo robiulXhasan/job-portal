@@ -18,7 +18,7 @@ const AppliedJobs = () => {
   return (
     <div>
       <SharedBanner bannerHeading="Applied Jobs"></SharedBanner>
-      <div className="w-10/12 mx-auto mt-24">
+      <div className="w-10/12 mx-auto mt-12">
         <div className="text-end">
           <select
             onChange={handleFilter}
@@ -32,7 +32,7 @@ const AppliedJobs = () => {
         </div>
         <div className="mb-16">
           {appliedJobs.map((job) => (
-            <AppliedJob key={appliedJobs.id} job={job}></AppliedJob>
+            <AppliedJob key={job.id} job={job}></AppliedJob>
           ))}
         </div>
       </div>

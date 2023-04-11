@@ -5,7 +5,7 @@ const Blog = () => {
     <div className="w-11/12 md:w-10/12 mx-auto space-y-10 my-10">
       <div className="space-y-4">
         <h2 className="text-2xl font-bold">1. When should you use context API?</h2>
-        <p className="text-lg">
+        <h3 className="text-lg">
           <p className="text-indigo-400 font-semibold">Answer: </p>
           We should use context API for some scenario that are given in below: <br />
           <span className="text-indigo-400 font-extrabold">**</span> When multiple components need
@@ -20,11 +20,11 @@ const Blog = () => {
           Redux: Redux is a popular state management library for React, but it can add unnecessary
           complexity to your application. If your state management needs are relatively simple,
           using the Context API may be a more lightweight and simpler solution.
-        </p>
+        </h3>
       </div>
       <div className="space-y-4">
         <h2 className="text-2xl font-bold">2. What is custom hook?</h2>
-        <p className="text-lg">
+        <h3  className="text-lg">
           <p className="text-indigo-400 font-semibold">Answer: </p>
           In React, a custom hook is a JavaScript function that allows you to reuse stateful logic
           across multiple components. Custom hooks follow a specific naming convention - their names
@@ -33,11 +33,11 @@ const Blog = () => {
           Custom hooks can be used to abstract away complex logic, making your code more readable
           and easier to maintain. By encapsulating stateful logic in a custom hook, you can easily
           reuse that logic across multiple components without having to duplicate code.
-        </p>
+        </h3>
       </div>
       <div className="space-y-4">
         <h2 className="text-2xl font-bold">3. What useRef?</h2>
-        <p className="text-lg">
+        <h3  className="text-lg">
           <p className="text-indigo-400 font-semibold">Answer: </p>
           In React, useRef is a hook that allows you to create a mutable variable that persists
           across renders. This variable can be used to store a reference to a DOM element or any
@@ -48,11 +48,11 @@ const Blog = () => {
           It's important to note that changing the value of a useRef variable doesn't trigger a
           re-render of the component, so it's useful for storing values that don't affect the UI. If
           you need to store a value that does affect the UI, you should use state instead.
-        </p>
+        </h3>
       </div>
       <div className="space-y-4 ">
         <h2 className="text-2xl font-bold">4. What is useMemo?</h2>
-        <p className="text-lg">
+        <h3  className="text-lg">
           <p className="text-indigo-400 font-semibold">Answer: </p>
           In React, useMemo is a hook that allows you to memoize the result of a function call and
           only recompute the result when one of its dependencies has changed. Memoization is a
@@ -66,7 +66,7 @@ const Blog = () => {
           complexity to your code and may not always result in a significant performance
           improvement. You should always measure the performance of your components before and after
           using useMemo to ensure that it's actually providing a benefit.
-        </p>
+        </h3>
       </div>
     </div>
   );
