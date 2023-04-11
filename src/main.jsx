@@ -11,6 +11,7 @@ import Blog from "./components/Blog/Blog";
 import jobDataLoader from "./Loader/jobDataLoader";
 import JobDetails from "./components/JobDetails/JobDetails";
 import jobDetailsLoader from "./Loader/jobDetailsLoader";
+import cartProductsLoader from "./Loader/cartProductsLoader";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
       {
         path: "/jobs",
         element: <AppliedJobs></AppliedJobs>,
+        loader: cartProductsLoader,
       },
       {
         path: "/statistics",

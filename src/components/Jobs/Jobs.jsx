@@ -13,7 +13,6 @@ const Jobs = ({ job }) => {
     salary,
     fulltime_or_parttime,
   } = job;
-  console.log(job);
   return (
     <div className="border p-5 rounded-lg space-y-2">
       <img className="h-20" src={company_logo} alt="" />
