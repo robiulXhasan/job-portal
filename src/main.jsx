@@ -2,56 +2,56 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Main from "./Layout/Main";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./components/Home/Home";
-import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import Statistics from "./components/Statistics/Statistics";
 import Blog from "./components/Blog/Blog";
-import jobDataLoader from "./Loader/jobDataLoader";
-import JobDetails from "./components/JobDetails/JobDetails";
-import jobDetailsLoader from "./Loader/jobDetailsLoader";
-import cartProductsLoader from "./Loader/cartProductsLoader";
+import AppliedJobs from "./components/AppliedJobs/AppliedJobs";
 import ErrorPage from "./components/ErrorPage/ErrorPage";
+import JobDetails from "./components/JobDetails/JobDetails";
+import Job from "./components/Job/Job";
+
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Main></Main>,
+    element: <App></App>,
     errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
         element: <Home></Home>,
-        loader: jobDataLoader,
       },
       {
         path: "/jobs",
-        element: <AppliedJobs></AppliedJobs>,
-        loader: cartProductsLoader,
+        element: <Job></Job>,
+        loader: () => {
+          return fetch("/jobData.json");
+        },
       },
       {
         path: "/statistics",
         element: <Statistics></Statistics>,
       },
       {
+        path: "/applied",
+        element: <AppliedJobs></AppliedJobs>,
+        loader: () => {
+          return fetch("/jobData.json");
+        },
+      },
+      {
         path: "/blog",
         element: <Blog></Blog>,
       },
       {
-        path: "/:id",
+        path: "/details/:jobId",
+        loader: () => fetch("/jobData.json"),
         element: <JobDetails></JobDetails>,
-        loader: ({ params }) => {
-          return jobDetailsLoader(params.id);
-        },
       },
     ],
   },
-  {
-    path: "*",
-    element: <ErrorPage></ErrorPage>,
-  },
 ]);
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />

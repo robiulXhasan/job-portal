@@ -1,41 +1,105 @@
 import React, { useState } from "react";
-import { useLoaderData } from "react-router-dom";
-import AppliedJob from "../AppliedJob/AppliedJob";
-import SharedBanner from "../SharedBanner/SharedBanner";
+import Dropdown from "react-bootstrap/Dropdown";
+import { Link, useLoaderData } from "react-router-dom";
+import { getAppliedJobs } from "../../utilities/fakeDb";
 
 const AppliedJobs = () => {
-  const jobs = useLoaderData();
-  const [appliedJobs, setAppliedJobs] = useState(jobs);
-  const handleFilter = () => {
-    var filterOption = document.getElementById("mySelect").value;
-    if (filterOption) {
-      let filteredJobs = jobs.filter((job) => job.remote_or_onsite === filterOption);
-      console.log(filteredJobs);
-      setAppliedJobs(filteredJobs);
+  const dataJob = useLoaderData();
+  const handleAddToDb = getAppliedJobs();
+
+  const cartArray = [];
+  for (const id in handleAddToDb) {
+    const addedProductId = Number(id);
+    const foundProduct = dataJob.find(
+      (product) => product.id === addedProductId
+    );
+    if (foundProduct) {
+      const quantity = handleAddToDb[id];
+      foundProduct.quantity = quantity;
+      cartArray.push(foundProduct);
     }
-  };
+  }
+
+  const [workTypeFilter, setWorkTypeFilter] = useState(null);
 
   return (
     <div>
-      <SharedBanner bannerHeading="Applied Jobs"></SharedBanner>
-      <div className="w-10/12 mx-auto mt-12">
-        <div className="text-end">
-          <select
-            onChange={handleFilter}
-            className="border border-1 border-slate-500 p-2 rounded-md"
-            id="mySelect"
-          >
-            <option value="">Filter By </option>
-            <option value="Remote">Remote</option>
-            <option value="Onsite">Onsite</option>
-          </select>
-        </div>
-        <div className="mb-16">
-          {appliedJobs.map((job) => (
-            <AppliedJob key={job.id} job={job}></AppliedJob>
-          ))}
-        </div>
+      <div className=" py-5 bg-section ">
+        <h1 className="text-center">Applied Jobs</h1>
       </div>
+      <div className="container d-flex justify-content-end my-3">
+        <Dropdown>
+          <Dropdown.Toggle variant="outline-info" id="workTypeFilter">
+            {workTypeFilter ? workTypeFilter : "Filter by work type"}
+          </Dropdown.Toggle>
+          <Dropdown.Menu>
+            <Dropdown.Item
+              active={workTypeFilter === "Remote"}
+              onClick={() => setWorkTypeFilter("Remote")}
+            >
+              Remote
+            </Dropdown.Item>
+            <Dropdown.Item
+              active={workTypeFilter === "Onsite"}
+              onClick={() => setWorkTypeFilter("Onsite")}
+            >
+              Onsite
+            </Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
+      </div>
+      {cartArray
+        .filter((product) =>
+          workTypeFilter ? product.workType.includes(workTypeFilter) : true
+        )
+        .map((product) => (
+          <div className="container my-4" key={product.id}>
+            <div className="d-flex p-4 gap-5 w-full border">
+              <div className="d-flex justify-content-center align-items-center bg-section  px-5">
+                <img className="img-fluid" src={product.logo} alt="" />
+              </div>
+              <div className="w-100">
+                <h3>{product.title}</h3>
+                <p>{product.company}</p>
+                <div className="d-flex justify-content-between">
+                  <div className="d-flex gap-3">
+                    <button type="button" className="btn btn-outline-info">
+                      {product.workType[0]}
+                    </button>
+                    <button type="button" className="btn btn-outline-warning">
+                      {product.workType[1]}
+                    </button>
+                  </div>
+                  <div>
+                    <Link to={`/details/${product.id}`}>
+                      {" "}
+                      <button type="button" class="btn btn-danger">
+                        View Details
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+                <div className="d-flex gap-5 my-3">
+                  <div>
+                    <span>
+                      <img src={product.icon} alt="" />
+                    </span>{" "}
+                    {""}
+                    <span>{product.location}</span>
+                  </div>
+
+                  <div>
+                    <span>
+                      <img src={product.icon_2} alt="" />
+                    </span>{" "}
+                    {""}
+                    <span>Salary: {product.salary}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
     </div>
   );
 };

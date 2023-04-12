@@ -1,110 +1,152 @@
 [
   {
-    "id": "job001",
-    "company_logo": "https://i.ibb.co/VLX2C0Q/google-1-1-1.png",
-    "job_title": "Software Engineer",
-    "company_name": "Google LLC",
-    "remote_or_onsite": "Remote",
-    "location": "Dhaka,BD",
-    "fulltime_or_parttime": "Fulltime",
-    "salary": "$100,000 - $150,000",
-    "job_description": "Google LLC is seeking a talented software engineer to join our team. The ideal candidate will have experience with web development and a strong knowledge of modern programming languages.",
-    "job_responsibility": "Responsibilities include designing and implementing software solutions, collaborating with cross-functional teams, and ensuring code quality and performance.",
-    "educational_requirements": "Bachelor's degree in computer science or a related field",
-    "experiences": "5+ years of experience in software engineering",
-    "contact_information": {
-      "phone": "555-1234",
-      "email": "jobs@acme.com"
+    "id": 1,
+    "logo": "https://i.ibb.co/NtMZGhr/Group-10021.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
+    "title": "Data Scientist",
+    "company": "Microsoft Corporation",
+    "location": "Redmond, WA, United States",
+    "salary": "120K - 150K",
+    "workType": ["Onsite", "Full Time"],
+    "jobDescription": "Apply statistical analysis and machine learning techniques to large datasets to extract insights and drive business decisions. Collaborate with cross-functional teams to design and implement data-driven solutions. Develop and maintain machine learning models for predictive analytics.",
+    "jobResponsibility": [
+      "Analyze large datasets using statistical techniques and machine learning algorithms",
+      "Design and implement data-driven solutions to drive business decisions",
+      "Develop and maintain machine learning models for predictive analytics",
+      "Communicate findings and insights to stakeholders"
+    ],
+    "educationRequirements": "Master's or PhD in Computer Science, Statistics, or related field",
+    "experienceRequirements": "3+ years of experience in data science or related field",
+    "contactInfo": {
+      "phone": "555-123-4567",
+      "email": "example@microsoft.com",
+      "address": "1 Microsoft Way, Redmond, WA, United States"
     }
   },
   {
-    "id": "job002",
-    "company_logo": "https://i.ibb.co/D4tSx9J/netflix-4-1.png",
-    "job_title": "Marketing Manager",
-    "company_name": "NetFlix.co",
-    "remote_or_onsite": "Onsite",
-    "location": "San Francisco, CA",
-    "fulltime_or_parttime": "Fulltime",
-    "salary": "$80,000 - $120,000",
-    "job_description": "NetFlix is looking for a marketing manager to develop and implement marketing strategies that drive growth and engagement.",
-    "job_responsibility": "Responsibilities include managing the marketing team, creating and executing marketing campaigns, and analyzing data to measure effectiveness.",
-    "educational_requirements": "Bachelor's degree in marketing, communications, or a related field",
-    "experiences": "5+ years of experience in marketing",
-    "contact_information": {
-      "phone": "555-5678",
-      "email": "jobs@xyzinc.com"
+    "id": 2,
+    "logo": "https://i.ibb.co/MpzXLW1/google-1-1-1.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
+    "title": "Cloud Solutions Architect",
+    "company": "Amazon Web Services (AWS)",
+    "location": "Seattle, WA, United States",
+    "salary": "140K - 180K",
+    "workType": ["Onsite", "Full Time"],
+    "jobDescription": "Design, implement, and deploy cloud solutions for enterprise customers. Provide technical expertise in AWS services and architecture. Collaborate with customers to understand their requirements and provide tailored solutions.",
+    "jobResponsibility": [
+      "Design and implement scalable and secure cloud solutions using AWS services",
+      "Provide technical expertise and guidance to customers on AWS architecture and best practices",
+      "Collaborate with customers to understand their requirements and provide tailored solutions",
+      "Participate in technical discussions and deliver presentations to customers"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "experienceRequirements": "5+ years of experience in cloud computing or related field",
+    "contactInfo": {
+      "phone": "888-555-7890",
+      "email": "example@amazon.com",
+      "address": "410 Terry Ave N, Seattle, WA, United States"
     }
   },
   {
-    "id": "job003",
-    "company_logo": "https://abccorporationhawaii.com/wp-content/uploads/2018/07/ABC-LogoLogotype-MASTER.jpg",
-    "job_title": "Graphic Designer",
-    "company_name": "ABC Corp.",
-    "remote_or_onsite": "Remote",
-    "location": "Mumbai,India",
-    "fulltime_or_parttime": "Part-time",
-    "salary": "$30 - $50 per hour",
-    "job_description": "ABC Corp. is seeking a talented graphic designer to help create visually appealing content for our brand.",
-    "job_responsibility": "Responsibilities include designing graphics for websites, social media, and other marketing materials, as well as collaborating with other teams to ensure design consistency.",
-    "educational_requirements": "Associate's or Bachelor's degree in graphic design or a related field",
-    "experiences": "2+ years of experience in graphic design",
-    "contact_information": {
-      "phone": "555-9012",
-      "email": "jobs@abccorp.com"
+    "id": 3,
+    "logo": "https://i.ibb.co/B3wJb0h/netflix-4-1.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
+    "title": "Software Engineer",
+    "company": "Google LLC",
+    "location": "Mountain View, CA, United States",
+    "salary": "150K - 180K",
+    "workType": ["Onsite", "Full Time"],
+    "jobDescription": "Design, develop, test, and deploy software applications for Google's products and services. Collaborate with cross-functional teams to define requirements and implement solutions. Maintain code quality and adhere to coding standards.",
+    "jobResponsibility": [
+      "Design, develop, test, and deploy software applications",
+      "Collaborate with cross-functional teams to define requirements and implement solutions",
+      "Maintain code quality and adhere to coding standards",
+      "Participate in code reviews and provide feedback to peers"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "experienceRequirements": "3+ years of experience in software engineering or related field",
+    "contactInfo": {
+      "phone": "555-987-6543",
+      "email": "example@google.com",
+      "address": "1600 Amphitheatre Parkway, Mountain View, CA, United States"
     }
   },
   {
-    "id": "job004",
-    "company_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9lWOe4eBsblvC8xhUo0dvs-TrjurNKNbReQ&usqp=CAU",
-    "job_title": "Data Analyst",
-    "company_name": "DevTech corp.",
-    "remote_or_onsite": "Remote",
-    "location": "Chicago, IL",
-    "fulltime_or_parttime": "Part-time",
-    "salary": "$50 - $60 per hour",
-    "job_description": "We are seeking a data analyst to help us extract insights from large data sets. You will be responsible for collecting, cleaning, and analyzing data to help us make better business decisions.",
-    "job_responsibility": "- Collect and clean data from various sources\n- Analyze data using statistical methods and software\n- Create visualizations and reports to communicate findings\n- Identify trends and patterns in data\n- Collaborate with cross-functional teams to drive data-driven decision-making",
-    "educational_requirements": "Bachelor's degree in Mathematics, Statistics, Computer Science, or a related field",
-    "experiences": "Minimum of 3 years of experience in data analysis",
-    "contact_information": {
-      "phone": "+1 345-678-9012",
-      "email": "jobs@abccorp.com"
+    "id": 4,
+    "logo": "https://i.ibb.co/NtMZGhr/Group-10021.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
+    "title": "AI Research Scientist",
+    "company": "IBM Research",
+    "location": "Yorktown Heights, NY, United States",
+    "salary": "120K - 150K",
+    "workType": ["Onsite", "Full Time"],
+    "jobDescription": "Conduct research and develop cutting-edge AI algorithms and models. Collaborate with interdisciplinary teams to apply AI techniques to various domains such as healthcare, finance, and natural language processing. Publish research findings in top-tier conferences and journals.",
+    "jobResponsibility": [
+      "Conduct research and develop cutting-edge AI algorithms and models",
+      "Collaborate with interdisciplinary teams to apply AI techniques to various domains",
+      "Publish research findings in top-tier conferences and journals",
+      "Stay up-to-date with the latest advancements in AI research and technologies"
+    ],
+    "educationRequirements": "PhD in Computer Science, Artificial Intelligence, or related field",
+    "experienceRequirements": "2+ years of experience in AI research or related field",
+    "contactInfo": {
+      "phone": "555-456-7890",
+      "email": "example@ibm.com",
+      "address": "1101 Kitchawan Rd, Yorktown Heights, NY, United States"
     }
   },
   {
-    "id": "job005",
-    "company_logo": "https://upload.wikimedia.org/wikipedia/commons/d/d7/VFS_Global_Logo.png",
-    "job_title": "Customer Service Representative",
-    "company_name": "Global Services",
-    "remote_or_onsite": "Onsite",
-    "location": "Miami, FL",
-    "fulltime_or_parttime": "Full-time",
-    "salary": "$30,000 - $40,000",
-    "job_description": "We are seeking a customer service representative to join our team. You will be responsible for providing excellent customer service to our clients and resolving their issues in a timely and professional manner.",
-    "job_responsibility": "- Answer customer inquiries via phone, email, and chat\n- Resolve customer issues and complaints\n- Document customer interactions and feedback\n- Collaborate with cross-functional teams to improve customer experience\n- Meet or exceed customer service metrics",
-    "educational_requirements": "High school diploma or equivalent",
-    "experiences": "Minimum of 1 year of experience in customer service",
-    "contact_information": {
-      "phone": "+1 567-890-1234",
-      "email": "careers@globalservices.com"
+    "id": 5,
+    "logo": "https://i.ibb.co/MpzXLW1/google-1-1-1.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
+    "title": "Cloud Solutions Architect",
+    "company": "Microsoft Corporation",
+    "location": "Redmond, WA, United States",
+    "salary": "130K - 160K",
+    "workType": ["Onsite", "Full Time"],
+    "jobDescription": "Design and implement scalable and secure cloud solutions for enterprise customers. Provide technical guidance and expertise to customers, partners, and internal teams. Develop and deliver technical presentations, demos, and workshops. Stay updated with the latest cloud technologies and trends.",
+    "jobResponsibility": [
+      "Design and implement scalable and secure cloud solutions for enterprise customers",
+      "Provide technical guidance and expertise to customers, partners, and internal teams",
+      "Develop and deliver technical presentations, demos, and workshops",
+      "Stay updated with the latest cloud technologies and trends"
+    ],
+    "educationRequirements": "Bachelor's or Master's degree in Computer Science or related field",
+    "experienceRequirements": "5+ years of experience in cloud solutions architecture or related field",
+    "contactInfo": {
+      "phone": "555-123-4567",
+      "email": "example@microsoft.com",
+      "address": "1 Microsoft Way, Redmond, WA, United States"
     }
   },
   {
-    "id": "job006",
-    "company_logo": "https://www.logoarena.com/contestimages/public_new/1440/3701_1352522040_bigdealstodayrgb2.jpg",
-    "job_title": "Sales Manager",
-    "company_name": "Big Deals Inc.",
-    "remote_or_onsite": "Remote",
-    "location": "San Francisco, CA",
-    "fulltime_or_parttime": "Full-time",
-    "salary": "$100,000 - $120,000",
-    "job_description": "We are seeking a highly motivated and results-driven sales manager to lead our sales team. You will be responsible for developing and executing sales strategies that drive revenue growth.",
-    "job_responsibility": "- Develop and implement sales strategies\n- Manage and coach sales team members\n- Identify and pursue new business opportunities\n- Monitor and report on sales performance metrics\n- Collaborate with cross-functional teams to meet revenue targets",
-    "educational_requirements": "Bachelor's degree in Business Administration or a related field",
-    "experiences": "Minimum of 5 years of experience in sales",
-    "contact_information": {
-      "phone": "+1 678-901-2345",
-      "email": "jobs@bigdealsinc.com"
+    "id": 6,
+    "logo": "https://i.ibb.co/B3wJb0h/netflix-4-1.png",
+    "icon": "https://i.ibb.co/0m7HzLc/Location-Icon.png",
+    "icon_2": "https://i.ibb.co/R0BF9qp/Frame.png",
+    "title": "Data Scientist",
+    "company": "Facebook Inc.",
+    "location": "Menlo Park, CA, United States",
+    "salary": "140K - 170K",
+    "workType": ["Onsite", "Full Time"],
+    "jobDescription": "Apply advanced statistical and machine learning techniques to analyze large data sets and extract insights. Collaborate with cross-functional teams to identify opportunities for improving products and services. Develop and deploy predictive models and algorithms. Present findings to stakeholders and provide recommendations.",
+    "jobResponsibility": [
+      "Apply advanced statistical and machine learning techniques to analyze large data sets and extract insights",
+      "Collaborate with cross-functional teams to identify opportunities for improving products and services",
+      "Develop and deploy predictive models and algorithms",
+      "Present findings to stakeholders and provide recommendations"
+    ],
+    "educationRequirements": "Master's or PhD in Computer Science, Statistics, or related field",
+    "experienceRequirements": "3+ years of experience in data science or related field",
+    "contactInfo": {
+      "phone": "555-789-0123",
+      "email": "example@facebook.com",
+      "address": "1 Hacker Way, Menlo Park, CA, United States"
     }
   }
 ]

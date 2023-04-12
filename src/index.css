@@ -1,3 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.bg-section {
+  background-color: #c6c6d6;
+}
+.bg-details {
+  background-color: #c6c6d6;
+}
