@@ -59,7 +59,7 @@ const data = [
 
 const Statistics = () => {
   return (
-    <div className="w-full md:w-10/12 mx-auto">
+    <div className="w-full md:w-10/12 mx-auto mb-10">
       <h3 className=" my-10 md:text-6xl text-3xl text-center font-bold bg-gradient-to-r from-sky-500 via-indigo-500 to-yellow-500 bg-clip-text text-transparent ">
         Assignment Marks
       </h3>

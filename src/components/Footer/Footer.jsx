@@ -46,7 +46,7 @@ const Footer = () => {
 
       <footer className="footer p-4 md:py-4 md:px-24 border-t bg-black text-white border-base-300">
         <div className="items-center grid-flow-col">
-          <p>@2023 CareerHub. All Rights Reserved</p>
+          <p>@2023 FindYourJob. All Rights Reserved</p>
         </div>
         <div className="md:place-self-center md:justify-self-end">
           <p>Powered by FindYourJob</p>

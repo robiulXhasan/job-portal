@@ -1,14 +1,14 @@
-import { getShoppingCart } from "../Utilities/LocalStorage";
+import { getLocalStorage } from "../Utilities/LocalStorage";
 
 const cartProductsLoader = async () => {
-  const loadedProducts = await fetch("jobData.json");
-  const products = await loadedProducts.json();
-  const storedCart = getShoppingCart();
+  const loadedJobs = await fetch("jobData.json");
+  const jobs = await loadedJobs.json();
+  const storedCart = getLocalStorage();
   const savedCart = [];
   for (const id in storedCart) {
-    const addedProduct = products.find((product) => product.id === id);
-    if (addedProduct) {
-      savedCart.push(addedProduct);
+    const appliedJobs = jobs.find((job) => job.id === id);
+    if (appliedJobs) {
+      savedCart.push(appliedJobs);
     }
   }
   return savedCart;
